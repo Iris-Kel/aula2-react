@@ -1,0 +1,21 @@
+.titulo-menor {
+  font-size: 20px;
+  color: #866a80;
+  text-align: center;
+  gap: 20px;
+}
+
+.btn-incrementar {
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fffbff;
+  background-color: #c9b7c7;
+  border: none;
+  display: block;
+  margin: auto;
+}
+
+.btn-incrementar:hover {
+  background-color: #866a80;
+}

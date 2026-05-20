@@ -2,6 +2,8 @@ import "./App.css";
 import BoasVindas from "./components/Boasvindas/BoasVindas";
 import MensagemSecreta from "./components/MensagemSecreta/MensagemSecreta";
 import CartaoProduto from "./components/CartaoProduto/CartaoProduto";
+import CompContador from "./components/CompContador/CompContador";
+import Formulario from "./components/Formulario/Formulario";
 
 const App = () => {
   return (
@@ -17,7 +19,7 @@ const App = () => {
           titulo="Hambúrguer"
           descricao="Hambúrguer artesanal com queijo"
           preco="R$ 25,00"
-          imagem="/bebida.gif"
+          imagem="/Hamburguer.gif"
         />
 
         <CartaoProduto
@@ -31,8 +33,12 @@ const App = () => {
           titulo="Milk Shake"
           descricao="Milk shake de chocolate"
           preco="R$ 18,00"
-          imagem="/laleli.gif"
+          imagem="/Milkshake.gif"
         />
+        <hr />
+        <CompContador />
+        <hr />
+        <Formulario />
       </div>
     </>
   );
